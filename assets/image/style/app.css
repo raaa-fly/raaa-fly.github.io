@@ -1,0 +1,100 @@
+body {
+  background: linear-gradient(#000000 0%, #1d044c 40%, #000000 100%);
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.Profileimage {
+  width: 200px;
+}
+.profile h2 {
+  color: #ffffff;
+  font-weight: bold;
+}
+.profile h4 {
+  color: #ffffff;
+   font-weight: bold;
+}
+.biodata {
+  background: linear-gradient(#ffffff 0%, #ffffffd5 40%, #fbfbfb00 100%);
+  padding-bottom: 100px;
+  padding-top: 60px;
+  
+}
+.biodata h1 {
+  font-weight: bold;
+}
+.Pencapaian {
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+.Pencapaian h1 {
+  font-weight: bold;
+}
+.footer h1 {
+   font-weight: bold;
+   color: #000000;
+}
+.footer {
+  background-color: #fff;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  
+}
+.contact a {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+.watermark {
+  padding-top: 20px;
+}
+.portfolio h1 {
+  padding-top: 90px;
+  margin-top: 10px; /* Adjust the space above the title */
+  margin-bottom: 4px; /* Space below the title (optional) */
+  letter-spacing: 1px; /* Space between the letters */
+  font-size: 2.5rem; /* Adjust the font size */
+  font-weight: bold; /* Make the text bold */
+}
+.portfolio .card {
+  margin-top: 20px;
+}
+.skills {
+  background-color: #000000 0%; /* Light background for the skills section */
+  padding-top: 80PX; /* Add padding to the top and bottom of the section */
+}
+
+.skills h1 {
+  margin-bottom: 50px; /* Space below the title */
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff; /* Dark color for the heading */
+}
+
+.skill-box {
+  background-color: #fff; /* White background for each skill box */
+  border: 1px solid #ddd; /* Light border around the box */
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for a 3D effect */
+  text-align: center; /* Center align the text inside the skill box */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 30px; /* Space between each skill box */
+}
+
+.skill-box h3 {
+  font-size: 1.5rem; /* Skill title font size */
+  margin-bottom: 15px; /* Space between the title and the description */
+  color: #000000; /* Blue color for the skill title */
+}
+
+.skill-box p {
+  font-size: 1rem; /* Description font size */
+  color: #555; /* Slightly darker text for readability */
+}
+.svg {
+  padding-bottom: -10PX;
+}
